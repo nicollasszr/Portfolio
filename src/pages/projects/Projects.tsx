@@ -1,4 +1,4 @@
-import data from '/public/assets/project_data.json';
+import data from '../../../public/assets/project_data.json';
 import Header from '../../components/header/Header';
 import ProjectCard from '../../components/projectCard/ProjectCard';
 import './Projects.css'
@@ -20,7 +20,7 @@ export default function Projects(){
                 <h1 className="projects-section__title">Projetos</h1>
                 <div className="projects-section__wrapper">
                     <ul className="projects-section__grid">
-                        {data.map((project, index) => (
+                        {data.map((project: any, index: any) => (
                             <li key={index} className="projects-section__item">
                                 <ProjectCard 
                                     title={project.title} 

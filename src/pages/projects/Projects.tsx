@@ -13,7 +13,7 @@ export default function Projects(){
 
                 <NavigationButton 
                                         path="/about" 
-                                        name={<img src="/public/assets/pointing_right.svg" />} 
+                                        name={<img src="../../../assets/pointing_right.svg" />} 
                                         className="nav-side-button nav-side-button--left"
                 />
 
@@ -37,7 +37,7 @@ export default function Projects(){
 
                 <NavigationButton 
                                         path="/contact" 
-                                        name={<img src="/public/assets/pointing_right.svg" />} 
+                                        name={<img src="../../../assets/pointing_right.svg" />} 
                                         className="nav-side-button nav-side-button--right"
                 />
 

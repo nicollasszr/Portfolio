@@ -60,7 +60,7 @@ export default function Contact() {
 
                 <NavigationButton 
                                         path="/projects" 
-                                        name={<img src="/public/assets/pointing_right.svg" />} 
+                                        name={<img src="../../../assets/pointing_right.svg" />} 
                                         className="nav-side-button nav-side-button--left"
                 />
 
@@ -127,7 +127,7 @@ export default function Contact() {
 
                 <NavigationButton 
                                         path="/" 
-                                        name={<img src="/public/assets/pointing_right.svg" />} 
+                                        name={<img src="../../../assets/pointing_right.svg" />} 
                                         className="nav-side-button nav-side-button--right"
                 />
             </section>

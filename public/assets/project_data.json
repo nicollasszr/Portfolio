@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Portifólio",
+    "image": "/public/assets/project_image1.png",
+    "stack": ["React","TypeScript", "CSS"],
+    "description": "Portfólio pessoal desenvolvido com React e TypeScript, apresentando projetos, habilidades e informações de contato em uma interface moderna, responsiva e focada na experiência do usuário.",
+    "github": "https://github.com/nicollasszr/portifolio",
+    "trial": null
+  },
+  {
+    "title": "FocusFlow",
+    "image": "/public/assets/project_image2.png",
+    "stack": ["React","TypeScript", "CSS"],
+    "description": "App de produtividade que combina Pomodoro e Kanban para organização de tarefas, feito com React e TypeScript.",
+    "github": "https://github.com/nicollasszr/FocusFlow",
+    "trial": "https://focus-flow-brown.vercel.app/timer"
+  }
+]

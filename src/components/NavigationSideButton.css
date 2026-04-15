@@ -1,0 +1,44 @@
+/* Navegação Lateral Ultra Minimalista */
+.nav-side-button {
+  display: none; /* Escondido no Desktop */
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9999;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  background: none;
+  border: none;
+  padding: 10px; /* Área de clique confortável mesmo sem ver o botão */
+}
+
+.nav-side-button img {
+  width: 20px; /* Tamanho discreto */
+  height: 20px;
+  opacity: 0.15; /* Quase imperceptível */
+  filter: grayscale(1); /* Garante que não brilhe demais */
+}
+
+.nav-side-button--left {
+  left: 5px;
+}
+
+.nav-side-button--right {
+  right: 5px;
+}
+
+/* Inversão da seta na esquerda */
+.nav-side-button--left img {
+  transform: rotate(180deg);
+}
+
+/* Fica levemente mais visível apenas ao tocar/clicar */
+.nav-side-button:active img {
+  opacity: 0.4;
+}
+
+@media (max-width: 768px) {
+  .nav-side-button {
+    display: block; /* Ativa no mobile */
+  }
+}

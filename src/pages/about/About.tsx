@@ -117,7 +117,7 @@ export default function About() {
                     <img className="about__skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="VS Code" />
                   </li>
                   <li className="about__hard-skill-card" data-name="KNIME">
-                    <img className="about__skill-icon" src="/public/assets/knime-original.svg" alt="KNIME" />
+                    <img className="about__skill-icon" src="../../../assets/knime-original.svg" alt="KNIME" />
                   </li>
                 </ul>
               </div>
